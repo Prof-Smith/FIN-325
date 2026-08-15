@@ -6,90 +6,35 @@
   <span>Labs -> Memos -> Capstone</span>
 </div>
 
-## The FIN 325 Analyst Pathway
+<div class="roadmap-hero">
+  <div class="hero-kicker">FIN 325 Analyst Journey</div>
+  <h1>From Financial Evidence to Investment Recommendation</h1>
+  <p>The course is designed as a professional analyst pathway. Students begin by diagnosing company health, then move through valuation, risk, cost of capital, capital budgeting, strategic finance, and finally an investment committee recommendation.</p>
+</div>
 
-FIN 325 is organized as a professional analyst journey. The course begins with financial diagnosis, moves into valuation and risk, then applies cost of capital and capital budgeting before ending with strategic finance and an investment committee recommendation.
+## Visual Course Journey
 
-<div class="analyst-pathway">
-  <div class="path-step"><div class="step-number">1</div><strong>Diagnose</strong><span>Modules 1-2</span></div>
-  <div class="path-step"><div class="step-number">2</div><strong>Value</strong><span>Modules 3-4</span></div>
-  <div class="path-step"><div class="step-number">3</div><strong>Price Risk</strong><span>Module 5</span></div>
-  <div class="path-step"><div class="step-number">4</div><strong>Cost Capital</strong><span>Module 6</span></div>
-  <div class="path-step"><div class="step-number">5</div><strong>Allocate</strong><span>Module 7</span></div>
-  <div class="path-step"><div class="step-number">6</div><strong>Stress Test</strong><span>Module 8</span></div>
-  <div class="path-step"><div class="step-number">7</div><strong>Recommend</strong><span>Capstone</span></div>
+<div class="journey-board">
+  <div class="journey-line"></div>
+  <div class="journey-stop diagnose"><div class="journey-node">1</div><div class="journey-card"><div class="journey-label">Diagnose</div><h3>Financial Health</h3><p class="journey-modules">Modules 1-2</p><p>Analyze the company, its financial environment, and its financial condition.</p><div class="journey-artifacts"><span>Lab 1</span><span>Memo 1</span></div><small>Capstone: Financial health section</small></div></div>
+  <div class="journey-stop value"><div class="journey-node">2</div><div class="journey-card"><div class="journey-label">Value</div><h3>TVM, Bonds, Equity</h3><p class="journey-modules">Modules 3-4</p><p>Estimate what future cash flows and ownership claims are worth today.</p><div class="journey-artifacts"><span>Labs 3-4</span><span>Memo 2</span></div><small>Capstone: Valuation section</small></div></div>
+  <div class="journey-stop risk"><div class="journey-node">3</div><div class="journey-card"><div class="journey-label">Price Risk</div><h3>Return and Beta</h3><p class="journey-modules">Module 5</p><p>Evaluate whether expected return is adequate for volatility and market risk.</p><div class="journey-artifacts"><span>Lab 5</span><span>Memo 3</span></div><small>Capstone: Risk-return section</small></div></div>
+  <div class="journey-stop capital"><div class="journey-node">4</div><div class="journey-card"><div class="journey-label">Cost Capital</div><h3>WACC and Hurdle Rates</h3><p class="journey-modules">Module 6</p><p>Estimate the return the firm must earn to create value for capital providers.</p><div class="journey-artifacts"><span>Lab 6</span><span>Memo 3</span></div><small>Capstone: WACC section</small></div></div>
+  <div class="journey-stop allocate"><div class="journey-node">5</div><div class="journey-card"><div class="journey-label">Allocate</div><h3>Projects and NPV</h3><p class="journey-modules">Module 7</p><p>Test whether projects create value after accounting for risk and capital cost.</p><div class="journey-artifacts"><span>Lab 7</span><span>Memo 3</span></div><small>Capstone: Capital allocation section</small></div></div>
+  <div class="journey-stop strategy"><div class="journey-node">6</div><div class="journey-card"><div class="journey-label">Stress Test</div><h3>Strategic Flexibility</h3><p class="journey-modules">Module 8</p><p>Evaluate leverage, working capital, payout policy, and downside resilience.</p><div class="journey-artifacts"><span>Lab 8</span><span>Memo 4</span></div><small>Capstone: Strategic finance section</small></div></div>
+  <div class="journey-stop recommend"><div class="journey-node">7</div><div class="journey-card"><div class="journey-label">Recommend</div><h3>Investment Committee</h3><p class="journey-modules">Capstone</p><p>Synthesize the evidence into a final professional investment recommendation.</p><div class="journey-artifacts"><span>Workbook</span><span>Final Report</span></div><small>Capstone: Final recommendation package</small></div></div>
 </div>
 
 ---
 
-## Course Map
+## Artifact Flow
 
-The course map shows how each phase contributes to the final capstone. Labs generate evidence, memos turn that evidence into professional recommendations, and the capstone integrates everything into one investment committee package.
-
-<div class="roadmap-grid">
-  <div class="roadmap-card diagnose">
-    <div class="roadmap-phase">Phase 1</div>
-    <h3>Diagnose</h3>
-    <p><strong>Modules:</strong> 1-2</p>
-    <p><strong>Student role:</strong> Financial analyst</p>
-    <p><strong>Lab:</strong> Lab 1</p>
-    <p><strong>Memo:</strong> Memo 1</p>
-    <p><strong>Capstone contribution:</strong> Financial health section</p>
-  </div>
-  <div class="roadmap-card value">
-    <div class="roadmap-phase">Phase 2</div>
-    <h3>Value</h3>
-    <p><strong>Modules:</strong> 3-4</p>
-    <p><strong>Student role:</strong> Valuation analyst</p>
-    <p><strong>Labs:</strong> Labs 3-4</p>
-    <p><strong>Memo:</strong> Memo 2</p>
-    <p><strong>Capstone contribution:</strong> Valuation section</p>
-  </div>
-  <div class="roadmap-card risk">
-    <div class="roadmap-phase">Phase 3</div>
-    <h3>Price Risk</h3>
-    <p><strong>Module:</strong> 5</p>
-    <p><strong>Student role:</strong> Portfolio analyst</p>
-    <p><strong>Lab:</strong> Lab 5</p>
-    <p><strong>Memo:</strong> Memo 3</p>
-    <p><strong>Capstone contribution:</strong> Risk-return section</p>
-  </div>
-  <div class="roadmap-card capital">
-    <div class="roadmap-phase">Phase 4</div>
-    <h3>Cost Capital</h3>
-    <p><strong>Module:</strong> 6</p>
-    <p><strong>Student role:</strong> Corporate finance analyst</p>
-    <p><strong>Lab:</strong> Lab 6</p>
-    <p><strong>Memo:</strong> Memo 3</p>
-    <p><strong>Capstone contribution:</strong> WACC section</p>
-  </div>
-  <div class="roadmap-card allocate">
-    <div class="roadmap-phase">Phase 5</div>
-    <h3>Allocate Capital</h3>
-    <p><strong>Module:</strong> 7</p>
-    <p><strong>Student role:</strong> Capital budgeting analyst</p>
-    <p><strong>Lab:</strong> Lab 7</p>
-    <p><strong>Memo:</strong> Memo 3</p>
-    <p><strong>Capstone contribution:</strong> Capital allocation section</p>
-  </div>
-  <div class="roadmap-card strategy">
-    <div class="roadmap-phase">Phase 6</div>
-    <h3>Decide Strategically</h3>
-    <p><strong>Module:</strong> 8</p>
-    <p><strong>Student role:</strong> Strategic finance analyst</p>
-    <p><strong>Lab:</strong> Lab 8</p>
-    <p><strong>Memo:</strong> Memo 4</p>
-    <p><strong>Capstone contribution:</strong> Strategic finance and stewardship section</p>
-  </div>
-  <div class="roadmap-card recommend">
-    <div class="roadmap-phase">Final Phase</div>
-    <h3>Recommend</h3>
-    <p><strong>Artifact:</strong> Capstone</p>
-    <p><strong>Student role:</strong> Investment committee analyst</p>
-    <p><strong>Workbook:</strong> Full analyst workbook</p>
-    <p><strong>Memos:</strong> Memo synthesis</p>
-    <p><strong>Capstone contribution:</strong> Final recommendation package</p>
-  </div>
+<div class="artifact-flow-visual">
+  <div class="flow-block lab-flow"><div class="flow-icon">01</div><h3>Labs Produce Evidence</h3><p>Students build models, test assumptions, and generate financial evidence.</p></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-block memo-flow"><div class="flow-icon">02</div><h3>Memos Create Recommendations</h3><p>Students translate model outputs into concise professional decisions.</p></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-block capstone-flow"><div class="flow-icon">03</div><h3>Capstone Synthesizes Judgment</h3><p>Students integrate the full course into an investment committee package.</p></div>
 </div>
 
 ---
@@ -109,33 +54,16 @@ The course map shows how each phase contributes to the final capstone. Labs gene
 
 ---
 
-## Artifact Flow
+## Student Workflow
 
-<div class="artifact-stack">
-  <div class="artifact-card">
-    <h3>1. Applied Labs</h3>
-    <p>Build models and generate evidence.</p>
-  </div>
-  <div class="artifact-card">
-    <h3>2. Investment Memos</h3>
-    <p>Convert evidence into professional recommendations.</p>
-  </div>
-  <div class="artifact-card">
-    <h3>3. Capstone</h3>
-    <p>Synthesize the evidence into a final investment committee package.</p>
-  </div>
+<div class="workflow-ribbon">
+  <div><strong>1</strong><span>Read Module</span></div>
+  <div><strong>2</strong><span>Use Tools</span></div>
+  <div><strong>3</strong><span>Build Workbook</span></div>
+  <div><strong>4</strong><span>Write Memo</span></div>
+  <div><strong>5</strong><span>Save Evidence</span></div>
+  <div><strong>6</strong><span>Complete Capstone</span></div>
 </div>
-
----
-
-## Recommended Student Workflow
-
-1. Start with the module page.
-2. Complete the relevant lab and workbook.
-3. Review the worked example.
-4. Write the memo when assigned.
-5. Save your strongest evidence for the capstone.
-6. Use the capstone playbook to make the final recommendation.
 
 <div class="callout-gold">
 <strong>Roadmap standard:</strong> Do not treat the course as separate assignments. Treat each artifact as one step in a professional analyst workflow.</div>
