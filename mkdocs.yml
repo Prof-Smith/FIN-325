@@ -1,0 +1,13 @@
+site_name: FIN 325 Applied Finance Lab
+site_description: Finance for Managers
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Start Here: start-here/index.md
+  - Roadmap: roadmap/index.md
+  - Modules:
+      - Module 1: modules/module-01/index.md
+  - Finance Labs: labs/index.md
+  - Capstone: capstone/index.md
+  - Resources: resources/index.md
