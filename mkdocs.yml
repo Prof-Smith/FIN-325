@@ -1,10 +1,10 @@
 site_name: FIN 325 Applied Finance Lab
 site_description: Finance for Managers | Build, Analyze, Decide
 site_author: Zachary Smith
-site_url: https://prof-smith.github.io/fin-325/
+site_url: https://prof-smith.github.io/FIN-325/
 
-repo_name: Prof-Smith/fin-325
-repo_url: https://github.com/Prof-Smith/fin-325
+repo_name: Prof-Smith/FIN-325
+repo_url: https://github.com/Prof-Smith/FIN-325
 edit_uri: edit/main/docs/
 
 theme:
@@ -77,7 +77,7 @@ extra:
   generator: false
   course:
     name: FIN 325 Applied Finance Lab
-    framework: Build → Analyze → Decide
+    framework: Build -> Analyze -> Decide
     owner: Zachary Smith
 
 copyright: >
