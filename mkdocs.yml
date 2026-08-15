@@ -46,12 +46,14 @@ extra_css:
   - assets/css/custom.css
   - assets/css/tvm-tools.css
   - assets/css/bond-tools.css
+  - assets/css/equity-tools.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-3.6.0.min.js
   - assets/js/custom.js
   - assets/js/tvm-tools.js
   - assets/js/bond-tools.js
+  - assets/js/equity-tools.js
 
 markdown_extensions:
   - admonition
@@ -121,7 +123,9 @@ nav:
       - Lab 3:
           - Overview: labs/lab-03/index.md
           - Worked Example: labs/lab-03/example-bond.md
-      - Lab 4: labs/lab-04/index.md
+      - Lab 4:
+          - Overview: labs/lab-04/index.md
+          - Worked Example: labs/lab-04/example-equity.md
       - Lab 5: labs/lab-05/index.md
       - Lab 6: labs/lab-06/index.md
       - Lab 7: labs/lab-07/index.md
