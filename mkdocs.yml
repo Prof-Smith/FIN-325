@@ -2,11 +2,9 @@ site_name: FIN 325 Applied Finance Lab
 site_description: Finance for Managers | Build, Analyze, Decide
 site_author: Zachary Smith
 site_url: https://prof-smith.github.io/FIN-325/
-
 repo_name: Prof-Smith/FIN-325
 repo_url: https://github.com/Prof-Smith/FIN-325
 edit_uri: edit/main/docs/
-
 theme:
   name: material
   logo: assets/branding/logo.svg
@@ -41,7 +39,6 @@ theme:
   font:
     text: Inter
     code: Roboto Mono
-
 extra_css:
   - assets/css/custom.css
   - assets/css/tvm-tools.css
@@ -49,7 +46,7 @@ extra_css:
   - assets/css/equity-tools.css
   - assets/css/risk-return-tools.css
   - assets/css/wacc-tools.css
-
+  - assets/css/capital-budgeting-tools.css
 extra_javascript:
   - https://cdn.plot.ly/plotly-3.6.0.min.js
   - assets/js/custom.js
@@ -58,7 +55,7 @@ extra_javascript:
   - assets/js/equity-tools.js
   - assets/js/risk-return-tools.js
   - assets/js/wacc-tools.js
-
+  - assets/js/capital-budgeting-tools.js
 markdown_extensions:
   - admonition
   - attr_list
@@ -80,20 +77,16 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
 plugins:
   - search
-
 extra:
   generator: false
   course:
     name: FIN 325 Applied Finance Lab
     framework: Build -> Analyze -> Decide
     owner: Zachary Smith
-
 copyright: >
   FIN 325 Applied Finance Lab. Course materials prepared by Zachary Smith.
-
 nav:
   - Home: index.md
   - Start Here:
@@ -132,7 +125,9 @@ nav:
       - Lab 6:
           - Overview: labs/lab-06/index.md
           - Worked Example: labs/lab-06/example-wacc.md
-      - Lab 7: labs/lab-07/index.md
+      - Lab 7:
+          - Overview: labs/lab-07/index.md
+          - Worked Example: labs/lab-07/example-capital-budgeting.md
       - Lab 8: labs/lab-08/index.md
   - Investment Memos:
       - Memo Series: memos/index.md
