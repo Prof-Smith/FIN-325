@@ -51,4 +51,4 @@ By the end of this module, you should be able to:
 
 ## Related Lab
 
-[Open Lab 1: Financial Diagnosis](../../labs/lab-01/)
+[Open Lab 1: Financial Diagnosis](../../labs/lab-01/index.md)
