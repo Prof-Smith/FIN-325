@@ -24,18 +24,72 @@ FIN 325 is organized as a professional analyst journey. The course begins with f
 
 ## Course Map
 
-<div class="journey-table">
+The course map shows how each phase contributes to the final capstone. Labs generate evidence, memos turn that evidence into professional recommendations, and the capstone integrates everything into one investment committee package.
 
-| Phase | Modules | Student Role | Lab Artifact | Memo Artifact | Capstone Contribution |
-|---|---|---|---|---|---|
-| Diagnose | Modules 1-2 | Financial analyst | Lab 1 | Memo 1 | Financial health section |
-| Value | Modules 3-4 | Valuation analyst | Labs 3-4 | Memo 2 | Valuation section |
-| Price Risk | Module 5 | Portfolio analyst | Lab 5 | Memo 3 | Risk-return section |
-| Estimate Capital Cost | Module 6 | Corporate finance analyst | Lab 6 | Memo 3 | WACC section |
-| Allocate Capital | Module 7 | Capital budgeting analyst | Lab 7 | Memo 3 | Capital allocation section |
-| Decide Strategically | Module 8 | Strategic finance analyst | Lab 8 | Memo 4 | Strategic finance and stewardship section |
-| Recommend | Capstone | Investment committee analyst | Full workbook | Memo synthesis | Final recommendation package |
-
+<div class="roadmap-grid">
+  <div class="roadmap-card diagnose">
+    <div class="roadmap-phase">Phase 1</div>
+    <h3>Diagnose</h3>
+    <p><strong>Modules:</strong> 1-2</p>
+    <p><strong>Student role:</strong> Financial analyst</p>
+    <p><strong>Lab:</strong> Lab 1</p>
+    <p><strong>Memo:</strong> Memo 1</p>
+    <p><strong>Capstone contribution:</strong> Financial health section</p>
+  </div>
+  <div class="roadmap-card value">
+    <div class="roadmap-phase">Phase 2</div>
+    <h3>Value</h3>
+    <p><strong>Modules:</strong> 3-4</p>
+    <p><strong>Student role:</strong> Valuation analyst</p>
+    <p><strong>Labs:</strong> Labs 3-4</p>
+    <p><strong>Memo:</strong> Memo 2</p>
+    <p><strong>Capstone contribution:</strong> Valuation section</p>
+  </div>
+  <div class="roadmap-card risk">
+    <div class="roadmap-phase">Phase 3</div>
+    <h3>Price Risk</h3>
+    <p><strong>Module:</strong> 5</p>
+    <p><strong>Student role:</strong> Portfolio analyst</p>
+    <p><strong>Lab:</strong> Lab 5</p>
+    <p><strong>Memo:</strong> Memo 3</p>
+    <p><strong>Capstone contribution:</strong> Risk-return section</p>
+  </div>
+  <div class="roadmap-card capital">
+    <div class="roadmap-phase">Phase 4</div>
+    <h3>Cost Capital</h3>
+    <p><strong>Module:</strong> 6</p>
+    <p><strong>Student role:</strong> Corporate finance analyst</p>
+    <p><strong>Lab:</strong> Lab 6</p>
+    <p><strong>Memo:</strong> Memo 3</p>
+    <p><strong>Capstone contribution:</strong> WACC section</p>
+  </div>
+  <div class="roadmap-card allocate">
+    <div class="roadmap-phase">Phase 5</div>
+    <h3>Allocate Capital</h3>
+    <p><strong>Module:</strong> 7</p>
+    <p><strong>Student role:</strong> Capital budgeting analyst</p>
+    <p><strong>Lab:</strong> Lab 7</p>
+    <p><strong>Memo:</strong> Memo 3</p>
+    <p><strong>Capstone contribution:</strong> Capital allocation section</p>
+  </div>
+  <div class="roadmap-card strategy">
+    <div class="roadmap-phase">Phase 6</div>
+    <h3>Decide Strategically</h3>
+    <p><strong>Module:</strong> 8</p>
+    <p><strong>Student role:</strong> Strategic finance analyst</p>
+    <p><strong>Lab:</strong> Lab 8</p>
+    <p><strong>Memo:</strong> Memo 4</p>
+    <p><strong>Capstone contribution:</strong> Strategic finance and stewardship section</p>
+  </div>
+  <div class="roadmap-card recommend">
+    <div class="roadmap-phase">Final Phase</div>
+    <h3>Recommend</h3>
+    <p><strong>Artifact:</strong> Capstone</p>
+    <p><strong>Student role:</strong> Investment committee analyst</p>
+    <p><strong>Workbook:</strong> Full analyst workbook</p>
+    <p><strong>Memos:</strong> Memo synthesis</p>
+    <p><strong>Capstone contribution:</strong> Final recommendation package</p>
+  </div>
 </div>
 
 ---
