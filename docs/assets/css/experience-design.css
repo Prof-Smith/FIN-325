@@ -1,5 +1,5 @@
 /* FIN 325 Experience Design Layer
-   Purpose: make the course feel like an applied finance analyst platform. */
+   Updated to prevent unattractive word-breaking in pathway and card layouts. */
 
 :root {
   --fin-navy: #1F3A5F;
@@ -43,7 +43,7 @@
 
 .command-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 1rem;
   margin: 1.5rem 0;
 }
@@ -57,6 +57,9 @@
   padding: 1.1rem;
   background: var(--md-default-bg-color);
   box-shadow: 0 8px 24px rgba(31,58,95,.07);
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .command-card h3,
@@ -65,6 +68,9 @@
 .artifact-card h3 {
   margin-top: 0;
   margin-bottom: .35rem;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .command-card p,
@@ -72,6 +78,9 @@
 .next-card p,
 .artifact-card p {
   margin-bottom: .75rem;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .command-card a,
@@ -85,26 +94,31 @@
 .command-card.memo { border-top: 5px solid var(--fin-gold); }
 .command-card.capstone { border-top: 5px solid var(--fin-charcoal); }
 
+/* Key fix: the analyst pathway now uses wider responsive cards instead of forcing seven narrow columns. */
 .analyst-pathway {
   display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: .75rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: .9rem;
   margin: 1.5rem 0;
+  align-items: stretch;
 }
 
 .path-step {
   border-radius: .9rem;
-  padding: .9rem .75rem;
+  padding: 1rem .9rem;
   background: var(--fin-soft-blue);
   border: 1px solid rgba(31,58,95,.13);
   text-align: center;
-  min-height: 98px;
+  min-height: 0;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .path-step .step-number {
   width: 1.8rem;
   height: 1.8rem;
-  margin: 0 auto .45rem auto;
+  margin: 0 auto .55rem auto;
   border-radius: 999px;
   background: var(--fin-navy);
   color: #fff;
@@ -118,18 +132,26 @@
 .path-step strong {
   display: block;
   color: var(--fin-navy);
+  line-height: 1.25;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .path-step span {
   display: block;
-  font-size: .78rem;
-  margin-top: .25rem;
+  font-size: .82rem;
+  line-height: 1.35;
+  margin-top: .35rem;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .artifact-stack {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.1rem;
   margin: 1.5rem 0;
 }
 
@@ -155,6 +177,7 @@
   border: 1px solid rgba(31,58,95,.14);
   background: var(--fin-soft-blue);
   color: var(--fin-navy);
+  white-space: nowrap;
 }
 
 .fin-badge.lab { background: var(--fin-soft-teal); color: #1f7775; }
@@ -175,7 +198,7 @@
 
 .next-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 1rem;
   margin-top: .75rem;
 }
@@ -188,15 +211,7 @@
   margin: 1rem 0;
 }
 
-@media screen and (max-width: 1100px) {
-  .command-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .analyst-pathway { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-  .artifact-stack { grid-template-columns: 1fr; }
-}
-
 @media screen and (max-width: 760px) {
-  .command-grid,
-  .next-grid { grid-template-columns: 1fr; }
-  .analyst-pathway { grid-template-columns: 1fr; }
   .hero-panel { padding: 1.25rem; }
+  .analyst-pathway { grid-template-columns: 1fr; }
 }
