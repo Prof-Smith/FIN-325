@@ -107,7 +107,9 @@ nav:
 
   - Finance Labs:
       - Labs Overview: labs/index.md
-      - Lab 1: labs/lab-01/index.md
+      - Lab 1:
+          - Overview: labs/lab-01/index.md
+          - Worked Example: labs/lab-01/example-microsoft.md
       - Lab 2: labs/lab-02/index.md
       - Lab 3: labs/lab-03/index.md
       - Lab 4: labs/lab-04/index.md

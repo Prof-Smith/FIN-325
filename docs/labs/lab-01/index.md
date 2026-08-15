@@ -12,6 +12,12 @@ Use financial statement analysis to evaluate whether a publicly traded company a
 
 This lab is not just a calculation exercise. Your goal is to use financial evidence to tell a clear story about a company's performance, risk, and financial position.
 
+<div class="callout-finance">
+<strong>Before you begin:</strong> Review the worked example to see how a complete Build -> Analyze -> Decide analysis is structured.
+<br><br>
+<a href="example-microsoft/">Open the Microsoft worked example</a>
+</div>
+
 ---
 
 ## Analyst Scenario
