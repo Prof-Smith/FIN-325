@@ -1,0 +1,66 @@
+.bond-tool {
+  border: 1px solid rgba(31, 58, 95, 0.15);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 8px 24px rgba(31, 58, 95, 0.08);
+}
+
+.bond-tool h3 {
+  margin-top: 0;
+}
+
+.bond-controls {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.bond-control label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.bond-control input {
+  width: 100%;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid rgba(31, 58, 95, 0.25);
+  border-radius: 0.5rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+.bond-output {
+  display: inline-block;
+  margin: 0.5rem 0;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(44, 166, 164, 0.12);
+  color: #2CA6A4;
+  font-weight: 800;
+}
+
+.bond-summary {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.bond-chart {
+  width: 100%;
+  height: 390px;
+}
+
+@media screen and (max-width: 1000px) {
+  .bond-controls {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .bond-controls {
+    grid-template-columns: 1fr;
+  }
+}
