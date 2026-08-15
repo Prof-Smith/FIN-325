@@ -47,6 +47,7 @@ extra_css:
   - assets/css/risk-return-tools.css
   - assets/css/wacc-tools.css
   - assets/css/capital-budgeting-tools.css
+  - assets/css/strategic-finance-tools.css
 extra_javascript:
   - https://cdn.plot.ly/plotly-3.6.0.min.js
   - assets/js/custom.js
@@ -56,6 +57,7 @@ extra_javascript:
   - assets/js/risk-return-tools.js
   - assets/js/wacc-tools.js
   - assets/js/capital-budgeting-tools.js
+  - assets/js/strategic-finance-tools.js
 markdown_extensions:
   - admonition
   - attr_list
@@ -128,7 +130,9 @@ nav:
       - Lab 7:
           - Overview: labs/lab-07/index.md
           - Worked Example: labs/lab-07/example-capital-budgeting.md
-      - Lab 8: labs/lab-08/index.md
+      - Lab 8:
+          - Overview: labs/lab-08/index.md
+          - Worked Example: labs/lab-08/example-strategic-finance.md
   - Investment Memos:
       - Memo Series: memos/index.md
       - Memo 1: memos/memo-01.md
