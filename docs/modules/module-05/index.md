@@ -8,11 +8,7 @@
 
 ## Welcome to Module 5
 
-Valuation depends on required return, and required return depends on risk.
-
-In Module 4, you estimated stock value using assumptions about discount rates and growth. Module 5 explains why investors require different returns for different investments. You will examine volatility, diversification, beta, CAPM, and the relationship between risk and expected return.
-
-By the end of this module, you will build a risk and return model and use it to evaluate whether an investment's expected return appears adequate for its risk.
+Module 5 connects return to risk. Students learn that return is only meaningful when evaluated relative to volatility, diversification, beta, and required return. This module also introduces responsible risk-taking as part of financial stewardship.
 
 ---
 
@@ -22,44 +18,46 @@ By the end of this module, you will build a risk and return model and use it to 
 
 ---
 
-## Learning Outcome
+## Learning Outcomes
 
 By the end of this module, you should be able to:
 
-### LO3
+### Primary Outcomes
+
+#### LO3
 
 **Determine the time value of money, risk and return concepts, and value of a stock, bond, or other investment.**
 
-This module focuses on the risk and return portion of LO3.
+#### LO8
+
+**Explain the relevance of Responsible Stewardship and Integrity in the context of financial management.**
+
+### Integrated Prior Outcome
+
+This module also draws on earlier or related course outcomes so students can connect individual finance tools into broader financial judgment.
+
+- **LO4:** Risk and return concepts prepare students to estimate cost of capital in Module 6.
 
 ---
 
 ## The Module 5 Workflow
 
 <div class="framework-row">
-  <div class="framework-card build"><h3>Build</h3><p>Create a risk and return model using return, standard deviation, beta, and CAPM.</p></div>
-  <div class="framework-card analyze"><h3>Analyze</h3><p>Interpret risk, diversification, beta, and required return.</p></div>
-  <div class="framework-card decide"><h3>Decide</h3><p>Recommend whether expected return justifies risk.</p></div>
+  <div class="framework-card build"><h3>Build</h3><p>Create the model, framework, or analytical structure needed for the financial decision.</p></div>
+  <div class="framework-card analyze"><h3>Analyze</h3><p>Interpret the results, identify the key drivers, and explain what matters most.</p></div>
+  <div class="framework-card decide"><h3>Decide</h3><p>Make a professional recommendation using evidence, assumptions, and judgment.</p></div>
 </div>
 
 ---
 
-## Why This Module Matters
+## What You Will Learn
 
-Risk and return are inseparable in finance. Investors do not simply seek high returns; they seek returns that are adequate relative to the risks taken.
-
-Analysts use risk and return tools to answer questions such as:
-
-- How volatile is an investment?
-- How much risk is diversifiable?
-- What does beta measure?
-- What required return does CAPM imply?
-- Does expected return justify risk?
-- Should the investment be included in a portfolio?
-
-<div class="callout-finance">
-<strong>Professional insight:</strong> A positive expected return is not enough. The return must be attractive relative to the risk taken.
-</div>
+- Historical and expected return
+- Standard deviation and volatility
+- Diversification and correlation
+- Beta and systematic risk
+- CAPM and required return
+- Responsible risk-taking and portfolio judgment
 
 ---
 
@@ -67,21 +65,12 @@ Analysts use risk and return tools to answer questions such as:
 
 ### Read
 
-- Assigned textbook chapter or section on risk and return
-- Instructor-provided notes on diversification, beta, and CAPM
+- Assigned textbook chapter or section for Module 5
+- Instructor-provided notes, examples, and applied finance materials
 
 ### Review in Class
 
-In class, we will work through:
-
-- Historical return
-- Standard deviation
-- Diversification
-- Correlation
-- Beta
-- CAPM
-- Required return
-- Risk-return tradeoffs
+Class time will focus on applying the module concepts to realistic financial decisions, interpreting model outputs, and preparing students for the applied lab.
 
 ### Practice
 
@@ -91,15 +80,16 @@ Complete the assigned MyFinanceLab work for Module 5.
 
 ## Module 5 Checklist
 
-- [ ] Read assigned materials on risk and return
+- [ ] Read assigned materials for Module 5
 - [ ] Participate in Module 5 class activities
 - [ ] Complete MyFinanceLab Module 5 practice
-- [ ] Use the Lab 5 interactive tools
-- [ ] Review the Lab 5 worked example
-- [ ] Complete the Lab 5 Excel model
-- [ ] Write the Lab 5 risk recommendation memo
+- [ ] Review the applied lab instructions
+- [ ] Use any interactive tools provided in the lab
+- [ ] Review the worked example
+- [ ] Complete the Excel model or analytical workbook
+- [ ] Write the professional memo or recommendation
 - [ ] Submit required files through Canvas
-- [ ] Complete the Module 5 quiz
+- [ ] Complete the Module 5 quiz or assessment
 
 ---
 
@@ -107,38 +97,46 @@ Complete the assigned MyFinanceLab work for Module 5.
 
 ## Risk and Return: Does the Expected Return Justify the Risk?
 
-In Lab 5, you will evaluate an investment or simple portfolio and decide whether expected return appears adequate given risk.
-
-[Open Lab 5: Risk and Return](../../labs/lab-05/index.md)
+[Open Lab 5](../../labs/lab-05/index.md)
 
 ---
 
 ## Submission Requirements
 
-Submit the following through Canvas.
+Submit required work through Canvas.
 
-### Deliverable 1: Excel Workbook
+### Deliverable 1: Excel Workbook or Analytical Model
 
-Your workbook should include:
+Your workbook should be clearly organized, professionally formatted, and transparent enough for another person to audit.
 
-- Investment input section
-- Return calculations
-- Risk calculations
-- Beta or CAPM section
-- Scenario or sensitivity analysis
-- Summary output section
-
-### Deliverable 2: Risk Recommendation Memo
+### Deliverable 2: Professional Memo or Recommendation
 
 Your memo should be:
 
-- 250-500 words
+- 250-500 words, unless otherwise assigned
 - Professionally written
 - Evidence-based
-- Focused on whether return justifies risk
+- Focused on the relevant financial decision
+
+---
+
+## Evaluation Criteria
+
+| Category | Weight | Description |
+|---|---:|---|
+| Technical Accuracy | 40% | Calculations, model structure, and financial methods are correct and transparent. |
+| Financial Analysis | 25% | Analysis explains what the results mean and why they matter. |
+| Decision Quality | 25% | Recommendation is clear, evidence-based, and defensible. |
+| Professional Presentation | 10% | Workbook and memo are organized, polished, and easy to follow. |
+
+---
+
+## Professional Standard
+
+<div class="callout-finance"><strong>Module 5 standard:</strong> Do not stop at calculation. Use the evidence to make a responsible financial judgment.</div>
 
 ---
 
 ## Looking Ahead
 
-In Module 6, we will use required return concepts to estimate the cost of capital and evaluate capital budgeting decisions.
+Module 6 uses required return concepts to estimate the firm's weighted average cost of capital.
