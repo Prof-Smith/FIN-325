@@ -1,13 +1,170 @@
 site_name: FIN 325 Applied Finance Lab
-site_description: Finance for Managers
+site_description: Finance for Managers | Saint Leo University
+site_author: Zachary Smith
+site_url: https://prof-smith.github.io/fin325-applied-finance-lab
+
 theme:
   name: material
+
+  logo: assets/branding/logo.svg
+  favicon: assets/branding/favicon.png
+
+  palette:
+
+    # Light Mode
+    - scheme: default
+      primary: custom
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to Dark Mode
+
+    # Dark Mode
+    - scheme: slate
+      primary: custom
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to Light Mode
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.path
+    - navigation.expand
+
+    - search.highlight
+    - search.share
+    - search.suggest
+
+    - content.code.copy
+    - content.tabs.link
+
+    - toc.follow
+
+extra_css:
+  - assets/css/custom.css
+
+extra_javascript:
+  - assets/js/custom.js
+
+markdown_extensions:
+
+  - admonition
+
+  - attr_list
+
+  - md_in_html
+
+  - tables
+
+  - footnotes
+
+  - pymdownx.highlight
+
+  - pymdownx.superfences
+
+  - pymdownx.inlinehilite
+
+  - pymdownx.details
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  - pymdownx.emoji
+
+plugins:
+  - search
+
+extra:
+
+  social:
+    - icon: fontawesome/solid/graduation-cap
+      link: /
+
+  generator: false
+
+copyright: >
+  © 2026 Saint Leo University |
+  FIN 325 Applied Finance Lab
+
 nav:
+
   - Home: index.md
-  - Start Here: start-here/index.md
-  - Roadmap: roadmap/index.md
+
+  - Start Here:
+      - Welcome: start-here/index.md
+      - Syllabus: start-here/syllabus.md
+      - Finance Lab Playbook: start-here/playbook.md
+      - Technology Guide: start-here/technology.md
+
+  - Course Roadmap:
+      - Overview: roadmap/index.md
+
   - Modules:
-      - Module 1: modules/module-01/index.md
-  - Finance Labs: labs/index.md
-  - Capstone: capstone/index.md
-  - Resources: resources/index.md
+
+      - Module 1:
+          - Overview: modules/module-01/index.md
+          - Lab 1: labs/lab-01/index.md
+
+      - Module 2:
+          - Overview: modules/module-02/index.md
+
+      - Module 3:
+          - Overview: modules/module-03/index.md
+
+      - Module 4:
+          - Overview: modules/module-04/index.md
+
+      - Module 5:
+          - Overview: modules/module-05/index.md
+
+      - Module 6:
+          - Overview: modules/module-06/index.md
+
+      - Module 7:
+          - Overview: modules/module-07/index.md
+
+      - Module 8:
+          - Overview: modules/module-08/index.md
+
+      - Module 9:
+          - Overview: modules/module-09/index.md
+
+  - Finance Labs:
+      - Overview: labs/index.md
+      - Lab 1: labs/lab-01/index.md
+      - Lab 2: labs/lab-02/index.md
+      - Lab 3: labs/lab-03/index.md
+      - Lab 4: labs/lab-04/index.md
+      - Lab 5: labs/lab-05/index.md
+      - Lab 6: labs/lab-06/index.md
+      - Lab 7: labs/lab-07/index.md
+      - Lab 8: labs/lab-08/index.md
+
+  - Investment Memos:
+      - Overview: memos/index.md
+      - Memo 1: memos/memo-01.md
+      - Memo 2: memos/memo-02.md
+      - Memo 3: memos/memo-03.md
+      - Memo 4: memos/memo-04.md
+
+  - Capstone Project:
+      - Project Overview: capstone/index.md
+      - Rubric: capstone/rubric.md
+
+  - Resources:
+      - Resources Hub: resources/index.md
+      - Excel Guide: resources/excel-guide.md
+      - Financial Data Sources: resources/data-sources.md
+      - Finance Glossary: resources/glossary.md
+
+  - Resources:
+      - Resources Hub: resources/index.md
+      - Excel Guide: resources/excel-guide.md
+      - Financial Data Sources: resources/data-sources.md
+      - Finance Glossary: resources/glossary.md
