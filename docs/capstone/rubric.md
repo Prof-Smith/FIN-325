@@ -2,176 +2,178 @@
 
 <div class="module-meta">
   <span>Final Project</span>
-  <span>Assessment Rubric</span>
+  <span>Professional Rubric</span>
   <span>Investment Recommendation Package</span>
 </div>
 
-## Capstone Evaluation Criteria
+## Evaluation Summary
 
-The capstone is evaluated on technical accuracy, financial analysis, professional judgment, and communication quality.
-
-| Category | Weight | Description |
-|---|---:|---|
-| Financial Health Analysis | 15% | Uses financial statements, ratios, and DuPont analysis to diagnose company health. |
-| Valuation Analysis | 20% | Uses appropriate valuation methods and compares estimated value with market price. |
-| Risk and Cost of Capital Analysis | 15% | Evaluates risk, required return, beta, CAPM, WACC, and related assumptions. |
-| Capital Allocation and Strategic Finance | 15% | Evaluates project discipline, leverage, working capital, payout policy, flexibility, or strategic risk. |
-| Final Recommendation Quality | 20% | Makes a clear, evidence-based, defensible investment recommendation. |
-| Professional Presentation | 15% | Report and workbook are organized, polished, concise, and appropriate for a professional reader. |
+| Category | Weight |
+|---|---:|
+| Executive Recommendation and Decision Logic | 15% |
+| Financial Health Diagnosis | 15% |
+| Valuation Analysis | 20% |
+| Risk, Required Return, and Cost of Capital | 15% |
+| Capital Allocation and Strategic Finance | 15% |
+| Professional Report and Workbook Quality | 20% |
 
 ---
 
-## Performance Standards
+## 1. Executive Recommendation and Decision Logic, 15%
 
-### Excellent Work
+### Excellent
 
-Excellent work demonstrates:
+- Recommendation is clear in the opening paragraph
+- Decision follows logically from evidence
+- Main drivers are prioritized
+- Key risk is acknowledged early
 
-- Clear final recommendation
-- Strong evidence from multiple course tools
-- Accurate calculations
-- Thoughtful interpretation
-- Honest assumptions and limitations
-- Professional tone and organization
-- Strong connection between analysis and decision
+### Satisfactory
 
-### Satisfactory Work
-
-Satisfactory work demonstrates:
-
-- A recognizable recommendation
-- Relevant financial evidence
-- Mostly accurate calculations
-- Basic interpretation
-- Some acknowledgment of limitations
-- Adequate organization and presentation
+- Recommendation is present but could be sharper
+- Evidence generally supports the decision
+- Some prioritization is visible
 
 ### Needs Improvement
 
-Work needs improvement when it includes:
-
-- Unclear or missing recommendation
-- Disconnected calculations
-- Weak interpretation
-- Unsupported claims
-- Missing valuation, risk, or strategic analysis
-- Poor organization
-- Limited evidence of professional judgment
+- Recommendation is missing, vague, or unsupported
+- Report summarizes information without making a decision
+- Decision contradicts the evidence
 
 ---
 
-## Detailed Rubric
+## 2. Financial Health Diagnosis, 15%
 
-### Financial Health Analysis, 15%
+### Excellent
 
-Strong work:
+- Uses relevant ratios and financial statement evidence
+- Interprets liquidity, profitability, efficiency, leverage, and DuPont drivers
+- Identifies strengths and concerns clearly
 
-- Selects relevant financial health indicators
-- Interprets liquidity, profitability, efficiency, leverage, and DuPont results
-- Explains whether the company appears financially healthy
+### Satisfactory
 
-Weak work:
+- Uses appropriate financial health indicators
+- Provides basic interpretation
+- May overemphasize calculation over meaning
+
+### Needs Improvement
 
 - Lists ratios without interpretation
-- Ignores leverage or liquidity
+- Omits important financial health dimensions
 - Treats financial health as equivalent to investment attractiveness
 
 ---
 
-### Valuation Analysis, 20%
+## 3. Valuation Analysis, 20%
 
-Strong work:
+### Excellent
 
 - Uses appropriate valuation methods
 - Compares estimated value with market price
-- Explains assumptions and sensitivity
-- Recognizes that valuation is a range, not a single perfect answer
+- Explains key assumptions
+- Includes sensitivity or valuation range
+- Interprets whether valuation supports the recommendation
 
-Weak work:
+### Satisfactory
 
-- Makes recommendation without valuation evidence
+- Provides valuation evidence
+- Compares value and price
+- Assumptions are present but not deeply analyzed
+
+### Needs Improvement
+
+- Recommendation lacks valuation support
 - Uses unrealistic assumptions
-- Relies on one method without explanation
-- Confuses company quality with stock attractiveness
+- Relies on one method without justification
+- Confuses strong company with undervalued stock
 
 ---
 
-### Risk and Cost of Capital Analysis, 15%
+## 4. Risk, Required Return, and Cost of Capital, 15%
 
-Strong work:
+### Excellent
 
 - Discusses risk and return together
 - Uses beta, CAPM, WACC, or required return appropriately
-- Explains whether expected return appears adequate for risk
-- Recognizes model limitations
+- Explains how risk affects valuation and recommendation
+- Recognizes cost of capital uncertainty
 
-Weak work:
+### Satisfactory
+
+- Includes risk and cost of capital evidence
+- Provides basic interpretation
+- Some assumptions may need clearer explanation
+
+### Needs Improvement
 
 - Discusses return without risk
-- Calculates WACC without interpretation
+- Calculates WACC without explaining meaning
 - Treats model estimates as certain
-- Ignores cost of capital assumptions
+- Ignores required return
 
 ---
 
-### Capital Allocation and Strategic Finance, 15%
+## 5. Capital Allocation and Strategic Finance, 15%
 
-Strong work:
+### Excellent
 
-- Evaluates capital budgeting, project discipline, leverage, working capital, payout policy, or strategic flexibility
-- Explains how strategic risks affect the recommendation
-- Integrates stewardship and responsible decision-making
+- Evaluates whether management appears to allocate capital responsibly
+- Uses NPV, IRR, payback, leverage, coverage, working capital, payout, or stress testing evidence
+- Connects strategic finance to long-term recommendation
+- Integrates stewardship and integrity
 
-Weak work:
+### Satisfactory
+
+- Discusses some capital allocation or strategic finance evidence
+- Provides basic link to recommendation
+
+### Needs Improvement
 
 - Ignores capital allocation
 - Treats growth as automatically good
 - Omits downside scenarios
-- Fails to address financial flexibility
+- Fails to address financial flexibility or stewardship
 
 ---
 
-### Final Recommendation Quality, 20%
+## 6. Professional Report and Workbook Quality, 20%
 
-Strong work:
+### Excellent
 
-- Gives a clear recommendation
-- Supports the recommendation with evidence
-- Acknowledges risks and limitations
-- Explains why the evidence leads to the decision
+- Report is organized, concise, and professional
+- Workbook is clear, auditable, and well formatted
+- Assumptions and sources are transparent
+- Tables and evidence support the recommendation
+- Writing is polished and decision-focused
 
-Weak work:
+### Satisfactory
 
-- Does not answer the main decision question
-- Gives unsupported opinion
-- Contradicts the analysis
-- Avoids making a decision
+- Report and workbook are understandable
+- Organization is adequate
+- Some formatting or clarity issues remain
+
+### Needs Improvement
+
+- Report is disorganized
+- Workbook is difficult to follow
+- Assumptions are unclear
+- Writing is vague, repetitive, or unsupported
 
 ---
 
-### Professional Presentation, 15%
+## Capstone Distinction Standard
 
-Strong work:
+A distinction-level capstone should read like an emerging analyst's investment committee package. It should demonstrate that the student can:
 
-- Uses clear headings
-- Organizes evidence logically
-- Writes concisely
-- Uses professional tone
-- Presents workbook clearly
-- Makes assumptions transparent
-
-Weak work:
-
-- Is poorly organized
-- Contains unclear writing
-- Uses unsupported claims
-- Provides messy workbook outputs
-- Lacks professional polish
+- Select relevant evidence
+- Build and interpret models
+- Make a decision under uncertainty
+- Communicate clearly
+- Acknowledge risks
+- Use finance as a tool for responsible judgment
 
 ---
 
 ## Final Reminder
 
-The capstone should show that you can think like a financial analyst.
-
-That means you can build models, analyze evidence, and make a clear decision under uncertainty.
+The capstone is not about proving that a company is good or bad. It is about making a disciplined, evidence-based recommendation.

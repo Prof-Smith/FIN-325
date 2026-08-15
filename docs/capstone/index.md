@@ -1,259 +1,283 @@
-# Capstone: Final Investment Recommendation
+# Capstone: Investment Committee Recommendation
 
 <div class="module-meta">
   <span>Final Synthesis Project</span>
-  <span>Framework: Build -> Analyze -> Decide</span>
-  <span>Primary Artifact: Investment Recommendation Package</span>
+  <span>Professional Analyst Package</span>
+  <span>Build -> Analyze -> Decide</span>
 </div>
 
-## Purpose of the Capstone
+## Capstone Purpose
 
-The capstone is the culminating project for FIN 325. It asks you to synthesize the financial tools developed across the course into a professional investment recommendation.
+The capstone is the culminating professional artifact for FIN 325. It asks you to act as a financial analyst presenting a recommendation to an investment committee.
 
-Throughout the semester, you built models, completed applied finance labs, and wrote investment memos. The capstone brings that work together into one coherent recommendation. Your goal is not to repeat every calculation from the course. Your goal is to use the most relevant evidence to answer one central question:
+Your task is not to show every calculation completed during the semester. Your task is to decide which evidence matters, interpret that evidence clearly, and make a defensible recommendation under uncertainty.
 
-> **Should an investor consider this company as an investment candidate? Why or why not?**
-
-A strong capstone demonstrates technical competence, professional judgment, and clear communication.
+The final product should read like a professional investment recommendation, not a collection of class assignments.
 
 <div class="callout-finance">
-<strong>Professional insight:</strong> The final recommendation should not be a collection of disconnected calculations. It should be a disciplined argument supported by financial evidence.</div>
+<strong>Professional standard:</strong> A world-class finance recommendation is clear enough to act on, rigorous enough to trust, and honest enough to reveal uncertainty.</div>
 
 ---
 
-## Capstone Decision Question
+## Final Decision Question
 
-> **Based on financial health, valuation, risk, cost of capital, capital allocation, and strategic finance evidence, would you recommend this company as an investment candidate?**
+> **Should an investor consider this company as an investment candidate based on financial health, valuation, risk, cost of capital, capital allocation, strategic flexibility, and stewardship?**
 
-Your final recommendation may be:
+Your final recommendation must be one of the following:
 
-- Recommend
-- Recommend with caution
-- Watchlist
-- Do not recommend
-
-The recommendation must be supported by evidence.
-
----
-
-## Connection to the Memo Series
-
-The capstone should build from your four investment memos.
-
-| Capstone Section | Supporting Memo |
+| Recommendation | Meaning |
 |---|---|
-| Company Overview and Financial Health | Memo 1 |
-| Valuation | Memo 2 |
-| Risk, Cost of Capital, and Capital Allocation | Memo 3 |
-| Strategic Finance and Stewardship | Memo 4 |
-| Final Recommendation | All Memos |
-
-The memos are not separate from the capstone. They are the foundation for it.
+| Recommend | Evidence supports investment consideration at the current or stated price. |
+| Recommend with Caution | Evidence is favorable, but important risks or assumptions require monitoring. |
+| Watchlist | Evidence is mixed; the company may become attractive if price, risk, or assumptions improve. |
+| Do Not Recommend | Evidence does not support investment consideration at this time. |
 
 ---
 
-## Connection to Course Learning Outcomes
+## The Analyst Mindset
 
-The capstone integrates the full course learning outcome sequence.
+A strong capstone does not ask, “Did I complete the assignment?”
 
-| Outcome | Capstone Role |
-|---|---|
-| LO1 | Explain the company, financial environment, and managerial finance context. |
-| LO2 | Diagnose financial performance using ratios, financial statements, and DuPont logic. |
-| LO3 | Apply valuation, time value of money, risk-return, and investment analysis. |
-| LO4 | Evaluate cost of capital and capital investment discipline. |
-| LO5 | Assess relevant cash flows, operating leverage, and financial leverage. |
-| LO6 | Consider working capital, payout policy, short-term borrowing, and cash flow management. |
-| LO7 | Evaluate strategic finance issues such as expansion, restructuring, M&A, divestitures, or international risk. |
-| LO8 | Demonstrate responsible stewardship and integrity through honest assumptions, limitations, and professional judgment. |
+It asks:
+
+- What would a decision-maker need to know?
+- Which evidence is most important?
+- What does the model say?
+- What does the model miss?
+- What assumptions drive the conclusion?
+- What would make the recommendation wrong?
+- What action should follow?
+
+This is the difference between a student report and a professional analyst recommendation.
 
 ---
 
-## Build -> Analyze -> Decide
+## Capstone Architecture
+
+The project is organized around an investment committee decision process.
 
 <div class="framework-row">
   <div class="framework-card build">
     <h3>Build</h3>
-    <p>Assemble the strongest evidence from your labs, memos, models, and supporting research.</p>
+    <p>Assemble the strongest evidence from financial statements, valuation models, risk analysis, WACC, capital budgeting, and strategic finance.</p>
   </div>
   <div class="framework-card analyze">
     <h3>Analyze</h3>
-    <p>Interpret the evidence and identify the most important drivers of the recommendation.</p>
+    <p>Identify the two or three drivers that matter most and explain what could change the conclusion.</p>
   </div>
   <div class="framework-card decide">
     <h3>Decide</h3>
-    <p>Make a clear final recommendation supported by evidence, assumptions, and limitations.</p>
+    <p>Make a clear recommendation that is useful to a professional reader.</p>
   </div>
 </div>
 
 ---
 
-## Capstone Structure
+## Required Report Structure
 
-Use the following structure for your final project.
+Your final report should include the following sections.
 
 ### 1. Executive Recommendation
 
-Open with the final recommendation.
+Open with the conclusion.
 
-The reader should know your conclusion in the first paragraph.
+The first paragraph should identify:
 
-Your opening should answer:
+- Company name and ticker
+- Final recommendation
+- Current or recent market price used in the analysis
+- Two or three strongest reasons for the recommendation
+- One key risk or limitation
 
-- What company are you analyzing?
-- What is your final recommendation?
-- What are the two or three strongest reasons supporting that recommendation?
+A reader should understand your recommendation before reading the rest of the report.
 
 ---
 
-### 2. Company Overview and Financial Health
+### 2. Company and Investment Context
 
-Summarize the company and diagnose its financial health.
+Briefly explain what the company does and why it is worth analyzing.
 
-Use evidence from Memo 1 and Lab 1.
+This section should answer:
 
-Possible evidence includes:
+- What does the company do?
+- How does it make money?
+- What industry or market context matters?
+- Why should an investor care?
 
-- Revenue and profitability trends
+Keep this section concise. The capstone is not a company history paper.
+
+---
+
+### 3. Financial Health Diagnosis
+
+Use selected evidence from Memo 1 and Lab 1.
+
+Focus on the most decision-relevant indicators:
+
 - Liquidity
+- Profitability
+- Efficiency
 - Leverage
-- Return on assets
-- Return on equity
-- DuPont analysis
-- Financial strengths and weaknesses
+- DuPont drivers
+- Cash flow quality, if relevant
 
-Do not include every ratio. Select the evidence that matters most.
+This section should answer:
+
+> **Is the company financially healthy enough to deserve investment consideration?**
 
 ---
 
-### 3. Valuation Analysis
+### 4. Valuation Analysis
 
-Evaluate whether the stock appears undervalued, overvalued, or reasonably priced.
+Use selected evidence from Memo 2 and Lab 4.
 
-Use evidence from Memo 2 and Lab 4.
+Discuss at least two valuation perspectives when possible:
 
-Possible evidence includes:
-
-- Market price
-- Dividend growth valuation
+- Dividend growth model
 - P/E multiple valuation
-- Simple DCF or cash-flow-based valuation
+- Simple DCF or free-cash-flow valuation
+- Comparable company multiple
 - Valuation range
-- Assumption sensitivity
-- Margin of safety
 
-This section should make clear whether valuation supports or weakens the investment case.
+This section should answer:
+
+> **Is the current price attractive relative to a defensible estimate of value?**
 
 ---
 
-### 4. Risk, Cost of Capital, and Capital Allocation
+### 5. Risk, Required Return, and Cost of Capital
 
-Evaluate whether expected return appears adequate for risk and whether the firm appears disciplined in capital allocation.
-
-Use evidence from Memo 3 and Labs 5-7.
+Use selected evidence from Memo 3 and Labs 5-6.
 
 Possible evidence includes:
 
 - Beta
 - CAPM required return
 - Standard deviation or volatility
+- Cost of equity
+- Cost of debt
 - WACC
-- NPV or IRR evidence
-- Scenario analysis
-- Hurdle rate discussion
-- Capital allocation discipline
+- Sensitivity to assumptions
+
+This section should answer:
+
+> **Does expected return appear adequate for the risk and cost of capital?**
 
 ---
 
-### 5. Strategic Finance and Stewardship
+### 6. Capital Allocation and Project Discipline
 
-Evaluate whether the company has the financial flexibility and responsible stewardship discipline to support a long-term recommendation.
+Use selected evidence from Memo 3 and Lab 7.
 
-Use evidence from Memo 4 and Lab 8.
+Possible evidence includes:
+
+- NPV
+- IRR
+- Payback
+- Scenario analysis
+- Evidence of returns above or below the cost of capital
+- Management’s investment discipline
+
+This section should answer:
+
+> **Does management appear to allocate capital in a way that creates value?**
+
+---
+
+### 7. Strategic Finance and Stewardship
+
+Use selected evidence from Memo 4 and Lab 8.
 
 Possible evidence includes:
 
 - Operating leverage
 - Financial leverage
 - Interest coverage
-- Cash conversion cycle
-- Working capital pressure
+- Working capital cycle
 - Payout policy
-- Expansion or restructuring risk
-- International exposure
+- Expansion, restructuring, international, or M&A risk
 - Downside resilience
-- Stewardship and integrity considerations
+- Responsible stewardship and integrity
+
+This section should answer:
+
+> **Does the firm have enough financial flexibility to pursue strategy responsibly?**
 
 ---
 
-### 6. Risks and Limitations
+### 8. Investment Risks and What Would Change the Recommendation
 
-Identify the most important reasons your recommendation could be wrong.
+A strong report identifies the risks that could make the recommendation wrong.
 
-A strong capstone is honest about uncertainty.
+Discuss the most important risks, such as:
 
-Possible limitations include:
+- Valuation assumptions
+- Growth expectations
+- Competitive pressure
+- Interest rates
+- Leverage
+- Cash flow uncertainty
+- Execution risk
+- Macroeconomic or international exposure
 
-- Valuation depends on growth assumptions.
-- Market price may already reflect expected performance.
-- Historical data may not predict future risk.
-- WACC is an estimate.
-- Project or strategic assumptions may be uncertain.
-- Macroeconomic, competitive, or international risks may change quickly.
+This section should answer:
 
----
-
-### 7. Final Recommendation
-
-Close with a clear final decision.
-
-Your final paragraph should restate:
-
-- The recommendation
-- The strongest supporting evidence
-- The key caution or limitation
-- What the reader should do next
+> **What would cause you to revise the recommendation?**
 
 ---
 
-## Suggested Length
+### 9. Final Recommendation
 
-Unless your instructor gives different directions, the capstone should be approximately:
+End with a concise final decision.
 
-```text
-1,500-2,500 words
-```
+The final paragraph should restate:
 
-The project should be long enough to synthesize the full course, but concise enough to remain a professional recommendation document.
-
----
-
-## Required Deliverables
-
-Submit the following through Canvas.
-
-### 1. Final Investment Recommendation Report
-
-A professional written report using the capstone structure above.
-
-### 2. Supporting Excel Workbook
-
-The workbook should include selected supporting analysis from the course, such as:
-
-- Financial statement and ratio analysis
-- Valuation model
-- Risk and return analysis
-- WACC estimate
-- Capital budgeting model
-- Strategic finance or stress-testing analysis
-
-### 3. Optional Appendix
-
-Use an appendix for supporting tables, detailed calculations, or expanded sensitivity analysis.
+- Recommendation
+- Strongest supporting evidence
+- Key caution
+- Suggested investor action
 
 ---
 
-## Professional Standard
+## Evidence Hierarchy
+
+Not all evidence carries equal weight.
+
+| Highest Value Evidence | Lower Value Evidence |
+|---|---|
+| Interpreted ratios and trends | Isolated ratios without explanation |
+| Valuation compared with market price | Valuation number without context |
+| Sensitivity and scenario analysis | Single-point estimates only |
+| Risk-adjusted return evidence | Return evidence without risk |
+| Clear assumptions and limitations | Unsupported claims |
+| Final recommendation tied to evidence | Generic opinion |
+
+---
+
+## Connection to Investment Memos
+
+The capstone should grow from your memo series.
+
+| Memo | Capstone Use |
+|---|---|
+| Memo 1 | Financial health diagnosis |
+| Memo 2 | Valuation conclusion |
+| Memo 3 | Risk, WACC, and capital allocation evidence |
+| Memo 4 | Strategic finance and stewardship judgment |
+
+You may revise and improve memo language for the final report. Do not simply paste the memos together. Integrate them into one coherent argument.
+
+---
+
+## Final Product Standard
+
+Your capstone should be:
+
+- Clear enough for a non-specialist decision-maker to follow
+- Technical enough to demonstrate finance competence
+- Concise enough to prioritize what matters
+- Honest enough to acknowledge uncertainty
+- Professional enough to serve as a portfolio artifact
 
 <div class="callout-gold">
-<strong>Capstone standard:</strong> The final recommendation should be clear, evidence-based, honest about uncertainty, and useful to a professional decision-maker.</div>
+<strong>Capstone standard:</strong> Build the model. Analyze the evidence. Decide with discipline.</div>

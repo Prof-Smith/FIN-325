@@ -2,203 +2,167 @@
 
 <div class="module-meta">
   <span>Final Project</span>
-  <span>Deliverables</span>
-  <span>Professional Investment Recommendation</span>
+  <span>Investment Committee Package</span>
+  <span>Report + Workbook + Optional Briefing</span>
 </div>
 
 ## Deliverable Overview
 
-The capstone requires you to submit a final investment recommendation package. The package should synthesize the course labs and investment memos into one professional decision document.
+The capstone requires a professional investment recommendation package.
 
-You should submit:
+Submit the following:
 
 1. Final Investment Recommendation Report
 2. Supporting Excel Workbook
-3. Optional Appendix, if needed
+3. Optional Investment Committee Briefing Slides
+4. Optional Appendix
 
 ---
 
 ## Deliverable 1: Final Investment Recommendation Report
 
-Your report should be written for a professional reader, such as an investment committee, financial manager, or portfolio decision-maker.
+The written report is the primary deliverable.
 
-### Required Sections
-
-Your report should include the following sections.
-
-#### 1. Executive Recommendation
-
-State your final recommendation clearly.
-
-Possible recommendations include:
-
-- Recommend
-- Recommend with caution
-- Watchlist
-- Do not recommend
-
-The reader should understand your conclusion immediately.
-
-#### 2. Company Overview and Financial Health
-
-Summarize the company and diagnose its financial condition.
-
-Use selected evidence from:
-
-- Memo 1
-- Lab 1
-- Financial ratio analysis
-- DuPont analysis
-
-#### 3. Valuation Analysis
-
-Explain whether the stock appears undervalued, overvalued, or reasonably priced.
-
-Use selected evidence from:
-
-- Memo 2
-- Lab 4
-- Dividend valuation
-- P/E multiple valuation
-- DCF or cash-flow valuation
-- Valuation range
-
-#### 4. Risk, Cost of Capital, and Capital Allocation
-
-Explain whether expected return appears adequate for risk and whether the firm appears disciplined in capital allocation.
-
-Use selected evidence from:
-
-- Memo 3
-- Lab 5
-- Lab 6
-- Lab 7
-- CAPM
-- WACC
-- NPV and IRR
-- Scenario analysis
-
-#### 5. Strategic Finance and Stewardship
-
-Explain whether the company has enough financial flexibility to support the long-term recommendation.
-
-Use selected evidence from:
-
-- Memo 4
-- Lab 8
-- Leverage analysis
-- Working capital analysis
-- Payout policy
-- Stress testing
-- Stewardship and integrity considerations
-
-#### 6. Risks and Limitations
-
-Identify the major risks, assumptions, and limitations.
-
-This section should show that you understand uncertainty.
-
-#### 7. Final Recommendation
-
-Close with a concise final recommendation.
-
----
-
-## Deliverable 2: Supporting Excel Workbook
-
-Your workbook should be organized and easy to audit.
-
-### Required Workbook Sections
-
-At minimum, include tabs or clearly labeled sections for:
-
-1. Company information
-2. Financial ratios and DuPont analysis
-3. Valuation analysis
-4. Risk and return analysis
-5. WACC calculation
-6. Capital budgeting or capital allocation analysis
-7. Strategic finance or stress-testing analysis
-8. Summary dashboard
-
-### Workbook Standards
-
-Your workbook should be:
-
-- Clearly labeled
-- Professionally formatted
-- Formula-driven where appropriate
-- Easy to follow
-- Consistent in units
-- Transparent about assumptions
-
-Avoid pasting disconnected numbers without formulas or explanation.
-
----
-
-## Deliverable 3: Optional Appendix
-
-Use an appendix only if needed.
-
-Possible appendix materials include:
-
-- Detailed ratio table
-- Expanded valuation assumptions
-- Scenario tables
-- Supporting charts
-- Source notes
-- Additional sensitivity analysis
-
-The appendix should support the recommendation, not distract from it.
-
----
-
-## Suggested Report Length
+### Suggested Length
 
 ```text
 1,500-2,500 words
 ```
 
-This is a professional recommendation report, not a textbook chapter. Focus on the evidence that matters most for the final decision.
+### Required Sections
+
+1. Executive Recommendation
+2. Company and Investment Context
+3. Financial Health Diagnosis
+4. Valuation Analysis
+5. Risk, Required Return, and Cost of Capital
+6. Capital Allocation and Project Discipline
+7. Strategic Finance and Stewardship
+8. Investment Risks and What Would Change the Recommendation
+9. Final Recommendation
 
 ---
 
-## Recommended Development Process
+## Deliverable 2: Supporting Excel Workbook
 
-Use your memos to build the report in stages.
+The workbook should support the recommendation and allow another person to audit your analysis.
+
+### Recommended Workbook Tabs
+
+| Tab | Purpose |
+|---|---|
+| 1. README | Brief explanation of workbook structure, sources, and assumptions |
+| 2. Company Inputs | Ticker, fiscal year, market price, key assumptions, source notes |
+| 3. Financial Health | Ratios, DuPont analysis, liquidity, profitability, leverage |
+| 4. Valuation | DDM, P/E multiple, DCF, or valuation range |
+| 5. Risk and Return | Beta, expected return, standard deviation, CAPM |
+| 6. WACC | Cost of equity, cost of debt, tax rate, capital structure weights |
+| 7. Capital Allocation | NPV, IRR, payback, project or capital allocation evidence |
+| 8. Strategic Finance | Leverage, coverage, working capital, payout, stress testing |
+| 9. Dashboard | Summary recommendation, key metrics, and decision drivers |
+
+### Workbook Quality Standard
+
+Your workbook should be:
+
+- Formula-driven where appropriate
+- Clearly labeled
+- Consistent in units
+- Easy to audit
+- Professionally formatted
+- Transparent about assumptions
+- Linked to source notes where appropriate
+
+Avoid disconnected pasted numbers.
+
+---
+
+## Deliverable 3: Optional Investment Committee Briefing Slides
+
+This is optional unless assigned by your instructor.
+
+If included, the slide deck should be concise.
+
+Suggested structure:
+
+1. Recommendation
+2. Company Snapshot
+3. Financial Health
+4. Valuation
+5. Risk and Cost of Capital
+6. Strategic Finance
+7. Final Decision
+
+The purpose of the slides is not to repeat the full report. The purpose is to communicate the recommendation quickly.
+
+---
+
+## Deliverable 4: Optional Appendix
+
+Use an appendix for supporting detail that would interrupt the main report.
+
+Possible appendix material:
+
+- Detailed ratio table
+- Expanded valuation assumptions
+- Scenario analysis
+- Source notes
+- Peer comparison
+- Additional sensitivity tables
+
+---
+
+## Source and Evidence Expectations
+
+Use credible evidence. Possible sources include:
+
+- Company annual report or Form 10-K
+- Company investor relations materials
+- Financial statements
+- Market data sources
+- Reputable business publications
+- Instructor-provided datasets
+
+Always make clear what data source or assumption supports your analysis.
+
+---
+
+## Capstone Development Process
+
+Use this workflow to build the final project.
 
 | Step | Action |
 |---|---|
-| 1 | Review Memo 1 and select the most important financial health evidence. |
-| 2 | Review Memo 2 and identify the most defensible valuation conclusion. |
-| 3 | Review Memo 3 and select the strongest risk, WACC, and capital allocation evidence. |
-| 4 | Review Memo 4 and identify the key strategic finance and stewardship insight. |
-| 5 | Write the executive recommendation last, after the evidence is clear. |
-| 6 | Edit for clarity, concision, and professional tone. |
+| 1 | Select the final company and confirm data availability |
+| 2 | Review Memos 1-4 and identify the strongest evidence |
+| 3 | Update workbook assumptions and source notes |
+| 4 | Build the dashboard and final recommendation summary |
+| 5 | Write the body sections before the executive recommendation |
+| 6 | Write the executive recommendation after the analysis is clear |
+| 7 | Edit for clarity, concision, and professional tone |
+| 8 | Check that the recommendation follows from the evidence |
 
 ---
 
 ## Final Submission Checklist
 
-Before submitting, confirm that your capstone includes:
+Before submitting, confirm the following:
 
-- [ ] Clear final recommendation
-- [ ] Company and ticker identified
-- [ ] Financial health evidence
-- [ ] Valuation evidence
-- [ ] Risk and return evidence
-- [ ] Cost of capital evidence
-- [ ] Capital budgeting or capital allocation evidence
-- [ ] Strategic finance or stewardship evidence
-- [ ] Risks and limitations
-- [ ] Supporting Excel workbook
-- [ ] Professional formatting
-- [ ] Clear source notes where appropriate
+- [ ] The recommendation is clear in the opening paragraph
+- [ ] Company name, ticker, and market price/date are identified
+- [ ] Financial health evidence is interpreted
+- [ ] Valuation is compared with market price
+- [ ] Risk and required return are discussed together
+- [ ] WACC is interpreted as a cost of capital
+- [ ] Capital allocation evidence is included
+- [ ] Strategic finance and stewardship are addressed
+- [ ] Risks and limitations are explicit
+- [ ] Workbook is organized and auditable
+- [ ] Report is professionally written
+- [ ] The final conclusion matches the evidence
 
 ---
 
 ## Professional Standard
 
-The capstone should read like a professional investment recommendation, not a collection of class assignments.
-
-Your goal is to help a decision-maker understand whether the company is worth considering as an investment candidate and why.
+The capstone should be strong enough to serve as a portfolio artifact that demonstrates applied finance judgment.
