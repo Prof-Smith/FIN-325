@@ -5,6 +5,7 @@ site_url: https://prof-smith.github.io/FIN-325/
 repo_name: Prof-Smith/FIN-325
 repo_url: https://github.com/Prof-Smith/FIN-325
 edit_uri: edit/main/docs/
+
 theme:
   name: material
   logo: assets/branding/logo.svg
@@ -39,6 +40,7 @@ theme:
   font:
     text: Inter
     code: Roboto Mono
+
 extra_css:
   - assets/css/custom.css
   - assets/css/tvm-tools.css
@@ -48,6 +50,8 @@ extra_css:
   - assets/css/wacc-tools.css
   - assets/css/capital-budgeting-tools.css
   - assets/css/strategic-finance-tools.css
+  - assets/css/experience-design.css
+
 extra_javascript:
   - https://cdn.plot.ly/plotly-3.6.0.min.js
   - assets/js/custom.js
@@ -58,6 +62,7 @@ extra_javascript:
   - assets/js/wacc-tools.js
   - assets/js/capital-budgeting-tools.js
   - assets/js/strategic-finance-tools.js
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -79,25 +84,30 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 plugins:
   - search
+
 extra:
   generator: false
   course:
     name: FIN 325 Applied Finance Lab
     framework: Build -> Analyze -> Decide
     owner: Zachary Smith
+
 copyright: >
   FIN 325 Applied Finance Lab. Course materials prepared by Zachary Smith.
+
 nav:
   - Home: index.md
   - Start Here:
       - Welcome: start-here/index.md
+      - How to Use This Site: start-here/how-to-use-this-site.md
       - Course Workflow: start-here/course-workflow.md
       - Technology Guide: start-here/technology.md
       - Submission Standards: start-here/submission-standards.md
   - Roadmap:
-      - Semester Roadmap: roadmap/index.md
+      - Analyst Journey: roadmap/index.md
   - Modules:
       - Module 1: modules/module-01/index.md
       - Module 2: modules/module-02/index.md
@@ -143,8 +153,11 @@ nav:
       - Project Overview: capstone/index.md
       - Deliverables: capstone/deliverables.md
       - Rubric: capstone/rubric.md
+      - Analyst Playbook: capstone/analyst-playbook.md
   - Resources:
       - Resource Hub: resources/index.md
+      - Course Architecture: resources/course-architecture.md
+      - Learning Outcome Alignment: resources/learning-outcome-alignment.md
       - Excel Guide: resources/excel-guide.md
       - Data Sources: resources/data-sources.md
       - Glossary: resources/glossary.md
