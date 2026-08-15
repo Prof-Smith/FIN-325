@@ -1,24 +1,24 @@
-# Lab X: Lab Title
+# Lab 2: Time Value of Money
 
 ## Objective
 
-_Add objective._
+_Add the lab objective here._
 
 ## Build
 
-_Add model-building requirements._
+_Add model-building tasks here._
 
 ## Analyze
 
-_Add analysis prompts._
+_Add analysis prompts here._
 
 ## Decide
 
-_Add decision prompt._
+_Add decision prompt here._
 
 ## Submission Requirements
 
-_Add required deliverables._
+_Add required files and submission location here._
 
 ## Evaluation Criteria
 

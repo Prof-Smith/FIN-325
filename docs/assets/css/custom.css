@@ -1,0 +1,136 @@
+:root {
+  --md-primary-fg-color: #1F3A5F;
+  --md-primary-fg-color--light: #2F527D;
+  --md-primary-fg-color--dark: #13243B;
+  --md-accent-fg-color: #2CA6A4;
+  --fin-navy: #1F3A5F;
+  --fin-teal: #2CA6A4;
+  --fin-gold: #C49A6C;
+  --fin-slate: #4A4A4A;
+  --fin-light: #F6F8FA;
+}
+
+.md-typeset h1 {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.md-typeset h2 {
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+.hero {
+  padding: 2.5rem 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #1F3A5F 0%, #13243B 65%, #2CA6A4 100%);
+  color: white;
+  margin: 1rem 0 2rem 0;
+}
+
+.hero h1,
+.hero h2,
+.hero h3,
+.hero p {
+  color: white !important;
+}
+
+.hero .tagline {
+  font-size: 1.25rem;
+  opacity: 0.92;
+  margin-top: -0.5rem;
+}
+
+.framework-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.framework-card,
+.quick-card,
+.kpi-card {
+  border: 1px solid rgba(31, 58, 95, 0.12);
+  border-radius: 0.85rem;
+  padding: 1.1rem;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 6px 18px rgba(31, 58, 95, 0.06);
+}
+
+.framework-card h3,
+.quick-card h3,
+.kpi-card h3 {
+  margin-top: 0;
+}
+
+.build {
+  border-top: 5px solid var(--fin-navy);
+}
+
+.analyze {
+  border-top: 5px solid var(--fin-teal);
+}
+
+.decide {
+  border-top: 5px solid var(--fin-gold);
+}
+
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(44, 166, 164, 0.12);
+  color: var(--fin-teal);
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.callout-finance {
+  border-left: 5px solid var(--fin-teal);
+  background: rgba(44, 166, 164, 0.07);
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.callout-gold {
+  border-left: 5px solid var(--fin-gold);
+  background: rgba(196, 154, 108, 0.1);
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.module-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.module-meta span {
+  border: 1px solid rgba(31, 58, 95, 0.15);
+  border-radius: 999px;
+  padding: 0.3rem 0.65rem;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 760px) {
+  .framework-row,
+  .quick-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    padding: 1.5rem;
+  }
+}
