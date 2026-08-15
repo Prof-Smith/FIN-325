@@ -48,6 +48,7 @@ extra_css:
   - assets/css/bond-tools.css
   - assets/css/equity-tools.css
   - assets/css/risk-return-tools.css
+  - assets/css/wacc-tools.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-3.6.0.min.js
@@ -56,6 +57,7 @@ extra_javascript:
   - assets/js/bond-tools.js
   - assets/js/equity-tools.js
   - assets/js/risk-return-tools.js
+  - assets/js/wacc-tools.js
 
 markdown_extensions:
   - admonition
@@ -94,16 +96,13 @@ copyright: >
 
 nav:
   - Home: index.md
-
   - Start Here:
       - Welcome: start-here/index.md
       - Course Workflow: start-here/course-workflow.md
       - Technology Guide: start-here/technology.md
       - Submission Standards: start-here/submission-standards.md
-
   - Roadmap:
       - Semester Roadmap: roadmap/index.md
-
   - Modules:
       - Module 1: modules/module-01/index.md
       - Module 2: modules/module-02/index.md
@@ -113,7 +112,6 @@ nav:
       - Module 6: modules/module-06/index.md
       - Module 7: modules/module-07/index.md
       - Module 8: modules/module-08/index.md
-
   - Finance Labs:
       - Labs Overview: labs/index.md
       - Lab 1:
@@ -131,22 +129,21 @@ nav:
       - Lab 5:
           - Overview: labs/lab-05/index.md
           - Worked Example: labs/lab-05/example-risk-return.md
-      - Lab 6: labs/lab-06/index.md
+      - Lab 6:
+          - Overview: labs/lab-06/index.md
+          - Worked Example: labs/lab-06/example-wacc.md
       - Lab 7: labs/lab-07/index.md
       - Lab 8: labs/lab-08/index.md
-
   - Investment Memos:
       - Memo Series: memos/index.md
       - Memo 1: memos/memo-01.md
       - Memo 2: memos/memo-02.md
       - Memo 3: memos/memo-03.md
       - Memo 4: memos/memo-04.md
-
   - Capstone:
       - Project Overview: capstone/index.md
       - Deliverables: capstone/deliverables.md
       - Rubric: capstone/rubric.md
-
   - Resources:
       - Resource Hub: resources/index.md
       - Excel Guide: resources/excel-guide.md
