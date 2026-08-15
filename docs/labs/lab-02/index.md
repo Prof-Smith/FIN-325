@@ -14,6 +14,113 @@ This lab is designed to help you understand how the timing of cash flows affects
 
 ---
 
+## Interactive Concept Tools
+
+Before completing the worked example or your own lab, use the tools below to explore the core concepts visually. These are not graded, but they are designed to help you understand how the mechanics behave before you build your own Excel model.
+
+<div class="callout-finance">
+<strong>How to use these tools:</strong> Change the assumptions, observe the chart, and write down what changes. The goal is to notice patterns, not just produce one answer.
+</div>
+
+### Tool 1: Future Value Growth
+
+Use this tool to see how a current investment grows over time.
+
+<div class="tvm-tool">
+  <h3>Future Value Explorer</h3>
+  <div class="tvm-controls">
+    <div class="tvm-control">
+      <label for="fv-principal">Initial Investment</label>
+      <input id="fv-principal" type="number" value="10000" min="0" step="500">
+    </div>
+    <div class="tvm-control">
+      <label for="fv-rate">Annual Return (%)</label>
+      <input id="fv-rate" type="number" value="7" min="0" max="25" step="0.25">
+    </div>
+    <div class="tvm-control">
+      <label for="fv-years">Years</label>
+      <input id="fv-years" type="number" value="30" min="1" max="50" step="1">
+    </div>
+  </div>
+  <div class="tvm-output" id="fv-output"></div>
+  <p class="tvm-summary" id="fv-summary"></p>
+  <div id="fv-chart" class="tvm-chart"></div>
+</div>
+
+**Think about:** Which matters more: the annual return, or the length of time the money compounds?
+
+---
+
+### Tool 2: Present Value Sensitivity
+
+Use this tool to see how the value of a future payment changes when the discount rate changes.
+
+<div class="tvm-tool">
+  <h3>Present Value Explorer</h3>
+  <div class="tvm-controls">
+    <div class="tvm-control">
+      <label for="pv-future">Future Payment</label>
+      <input id="pv-future" type="number" value="50000" min="0" step="1000">
+    </div>
+    <div class="tvm-control">
+      <label for="pv-rate">Discount Rate (%)</label>
+      <input id="pv-rate" type="number" value="7" min="0" max="25" step="0.25">
+    </div>
+    <div class="tvm-control">
+      <label for="pv-years">Years Until Payment</label>
+      <input id="pv-years" type="number" value="10" min="1" max="50" step="1">
+    </div>
+  </div>
+  <div class="tvm-output" id="pv-output"></div>
+  <p class="tvm-summary" id="pv-summary"></p>
+  <div id="pv-chart" class="tvm-chart"></div>
+</div>
+
+**Think about:** Why does a higher discount rate reduce present value?
+
+---
+
+### Tool 3: Annuity Growth
+
+Use this tool to see the difference between total contributions and the future value of repeated payments.
+
+<div class="tvm-tool">
+  <h3>Annuity Growth Explorer</h3>
+  <div class="tvm-controls">
+    <div class="tvm-control">
+      <label for="ann-payment">Annual Payment</label>
+      <input id="ann-payment" type="number" value="3000" min="0" step="250">
+    </div>
+    <div class="tvm-control">
+      <label for="ann-rate">Annual Return (%)</label>
+      <input id="ann-rate" type="number" value="6" min="0" max="25" step="0.25">
+    </div>
+    <div class="tvm-control">
+      <label for="ann-years">Years</label>
+      <input id="ann-years" type="number" value="20" min="1" max="50" step="1">
+    </div>
+  </div>
+  <div class="tvm-output" id="ann-output"></div>
+  <p class="tvm-summary" id="ann-summary"></p>
+  <div id="ann-chart" class="tvm-chart"></div>
+</div>
+
+**Think about:** How does compounding change the difference between what you contribute and what you end with?
+
+---
+
+## Worked Example
+
+After using the interactive tools, open the worked example. It shows how to apply the same ideas to a decision memo.
+
+<div class="callout-gold">
+<strong>Next step:</strong> Review the worked example before completing your own Lab 2 analysis.
+<br><br>
+<a href="example-tvm/">Open the Lab 2 worked example</a>
+</div>
+
+---
+
 ## Analyst Scenario
 
 You are evaluating a financial choice involving money received, paid, invested, or saved at different points in time.

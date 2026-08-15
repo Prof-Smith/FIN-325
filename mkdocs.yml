@@ -44,9 +44,12 @@ theme:
 
 extra_css:
   - assets/css/custom.css
+  - assets/css/tvm-tools.css
 
 extra_javascript:
+  - https://cdn.plot.ly/plotly-3.6.0.min.js
   - assets/js/custom.js
+  - assets/js/tvm-tools.js
 
 markdown_extensions:
   - admonition
@@ -110,7 +113,9 @@ nav:
       - Lab 1:
           - Overview: labs/lab-01/index.md
           - Worked Example: labs/lab-01/example-microsoft.md
-      - Lab 2: labs/lab-02/index.md
+      - Lab 2:
+          - Overview: labs/lab-02/index.md
+          - Worked Example: labs/lab-02/example-tvm.md
       - Lab 3: labs/lab-03/index.md
       - Lab 4: labs/lab-04/index.md
       - Lab 5: labs/lab-05/index.md
