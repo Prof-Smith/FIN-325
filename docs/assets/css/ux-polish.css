@@ -1,0 +1,76 @@
+/* FIN 325 v2 polish layer: readability, workflow panels, and decision-focused layouts */
+
+:root {
+  --fin-navy: #1F3A5F;
+  --fin-teal: #2CA6A4;
+  --fin-gold: #C49A6C;
+  --fin-charcoal: #263238;
+  --fin-soft-blue: rgba(31, 58, 95, 0.08);
+  --fin-soft-teal: rgba(44, 166, 164, 0.10);
+  --fin-soft-gold: rgba(196, 154, 108, 0.14);
+  --fin-border: rgba(31, 58, 95, 0.14);
+}
+
+.md-typeset { line-height: 1.58; }
+.md-typeset h2 { margin-top: 2.2rem; }
+.md-typeset h3 { margin-top: 1.4rem; }
+
+.fin-action-panel,
+.fin-next-steps,
+.fin-decision-panel,
+.fin-template-card,
+.fin-example-card {
+  border: 1px solid var(--fin-border);
+  border-radius: 1rem;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 8px 24px rgba(31,58,95,.07);
+  padding: 1.15rem 1.25rem;
+  margin: 1.25rem 0;
+}
+
+.fin-action-panel { border-left: 6px solid var(--fin-teal); }
+.fin-next-steps { border-left: 6px solid var(--fin-gold); background: linear-gradient(135deg, rgba(196,154,108,.10), rgba(44,166,164,.06)); }
+.fin-decision-panel { border-left: 6px solid var(--fin-navy); }
+
+.fin-card-grid-2,
+.fin-card-grid-3 {
+  display: grid;
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+.fin-card-grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.fin-card-grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+.fin-template-card h3,
+.fin-example-card h3 { margin-top: 0; color: var(--fin-navy); }
+.fin-template-card p,
+.fin-example-card p { margin-bottom: .65rem; }
+
+.fin-badge-inline {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: .25rem .62rem;
+  font-size: .76rem;
+  font-weight: 850;
+  background: var(--fin-soft-blue);
+  color: var(--fin-navy);
+  margin: .15rem .25rem .15rem 0;
+  white-space: nowrap;
+}
+.fin-badge-inline.lab { background: var(--fin-soft-teal); color: #1f7775; }
+.fin-badge-inline.memo { background: var(--fin-soft-gold); color: #8A663E; }
+.fin-badge-inline.capstone { background: rgba(38,50,56,.10); color: var(--fin-charcoal); }
+
+.fin-weak { border-left: 6px solid #C0504D; }
+.fin-strong { border-left: 6px solid #2CA6A4; }
+.fin-weak h3 { color: #9E2F2C; }
+.fin-strong h3 { color: #1f7775; }
+
+.fin-checklist li { margin-bottom: .35rem; }
+.fin-small-note { color: var(--md-default-fg-color--light); font-size: .9rem; }
+
+@media screen and (max-width: 900px) {
+  .fin-card-grid-2,
+  .fin-card-grid-3 { grid-template-columns: 1fr; }
+}

@@ -51,6 +51,7 @@ extra_css:
   - assets/css/capital-budgeting-tools.css
   - assets/css/strategic-finance-tools.css
   - assets/css/experience-design.css
+  - assets/css/ux-polish.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-3.6.0.min.js
@@ -103,6 +104,7 @@ nav:
   - Start Here:
       - Welcome: start-here/index.md
       - How to Use This Site: start-here/how-to-use-this-site.md
+      - Student Orientation Script: start-here/student-orientation-script.md
       - Course Workflow: start-here/course-workflow.md
       - Technology Guide: start-here/technology.md
       - Submission Standards: start-here/submission-standards.md
@@ -145,6 +147,7 @@ nav:
           - Worked Example: labs/lab-08/example-strategic-finance.md
   - Investment Memos:
       - Memo Series: memos/index.md
+      - Memo Template Pack: memos/memo-template-pack.md
       - Memo 1: memos/memo-01.md
       - Memo 2: memos/memo-02.md
       - Memo 3: memos/memo-03.md
@@ -155,9 +158,14 @@ nav:
       - Rubric: capstone/rubric.md
       - Analyst Playbook: capstone/analyst-playbook.md
       - Workbook Template: capstone/workbook-template.md
+      - Report Template: capstone/report-template.md
+      - Portfolio Standard: capstone/portfolio-standard.md
   - Resources:
       - Resource Hub: resources/index.md
       - Course Architecture: resources/course-architecture.md
+      - Template Library: resources/template-library.md
+      - Model Audit Checklist: resources/model-audit-checklist.md
+      - Weak vs. Strong Examples: resources/strong-vs-weak-examples.md
       - Learning Outcome Alignment: resources/learning-outcome-alignment.md
       - Excel Guide: resources/excel-guide.md
       - Data Sources: resources/data-sources.md
